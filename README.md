@@ -8,7 +8,33 @@
 
 ## Sobre
 
-Este repositório armazena meus códigos de desafios diários do Beecrowd. Ele lista apenas os exercícios no estado de resposta dentro do diretório que indica o código da questão resolvida.
+Este repositório armazena meus códigos dos desafios diários enfrentados no [Beecrowd](https://judge.beecrowd.com/). Deixei os exercícios dentro de seus respectivos diretórios, no qual está o código da questão resolvida.
+
+## Organização do Repositório
+
+O repositório está organizado por capítulos e exercícios. Cada diretório corresponde a um capítulo do livro, e dentro de cada diretório, você encontrará os códigos dos exercícios numerados.
+
+```txt
+├── Begginer
+│   ├── 1000
+│   │   ├── Main.java
+│   ├── 1001
+│   │   ├── Main.java
+├── Strings
+│   ├── ...
+│── ...
+```
+
+## Como rodar os Scripts
+
+Para facilitar na hora de executar a questão, criei o script [run.sh](run.sh), no qual rapidamente compila e executa o arquivo **Main.java** do exercício.
+
+- __Exemplo de execução:__
+
+    ```bash
+    $ bash run.sh Begginer/1000/
+    Hello World!
+    ```
 
 <div align="center">
 
