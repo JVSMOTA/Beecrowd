@@ -31,17 +31,17 @@ Para facilitar na hora de executar a questão, criei o script [run.sh](run.sh), 
 
 __Exemplos de execução:__
 
-    ```bash
-    $ bash run.sh Begginer/1000/
-    Hello World!
-    ```
+```bash
+$ bash run.sh Begginer/1000/
+Hello World!
+```
 
 ou 
 
-    ```bash
-    $ bash run.sh Begginer/1000/Main.java
-    Hello World!
-    ```
+```bash
+$ bash run.sh Begginer/1000/Main.java
+Hello World!
+```
 
 
 <div align="center">
