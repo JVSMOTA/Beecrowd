@@ -28,6 +28,9 @@ javac "$FILE"
 if [ $? -eq 0 ]; then
   # Executa a classe Main
   java -cp "$DIR" Main
+  
+  # Remove o arquivo .class após a execução
+  rm "$DIR/Main.class"
 else
   echo "Erro na compilação do arquivo."
   exit 1
