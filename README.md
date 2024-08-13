@@ -29,12 +29,20 @@ O repositório está organizado por capítulos e exercícios. Cada diretório co
 
 Para facilitar na hora de executar a questão, criei o script [run.sh](run.sh), no qual rapidamente compila e executa o arquivo **Main.java** do exercício.
 
-- __Exemplo de execução:__
+- __Exemplos de execução:__
 
     ```bash
     $ bash run.sh Begginer/1000/
     Hello World!
     ```
+
+ou 
+
+    ```bash
+    $ bash run.sh Begginer/1000/Main.java
+    Hello World!
+    ```
+
 
 <div align="center">
 
