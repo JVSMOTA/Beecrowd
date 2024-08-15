@@ -1,0 +1,27 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+
+        int positivos = 0;
+        int count = 0;
+		double soma = 0;
+
+        while (count < 6) {
+            double number = scanner.nextDouble();
+            if (number >= 0) {
+                positivos++;
+				soma += number;
+            }
+            count++;
+        }
+
+		double media = soma / positivos;
+		
+        System.out.println( positivos + " valores positivos");
+		System.out.printf("%.1f\n", media );
+	}
+
+}
