@@ -12,7 +12,7 @@ Este repositório armazena meus códigos dos desafios diários enfrentados no [B
 
 ## Organização do Repositório
 
-O repositório está organizado por capítulos e exercícios. Cada diretório corresponde a um capítulo do livro, e dentro de cada diretório, você encontrará os códigos dos exercícios numerados.
+O repositório está organizado por nível e seus exercícios. Cada diretório corresponde a um nível, no qual, dentro dele estarão os exercício já concluídos. Dentro de cada diretório de exercício, você encontrará o código do exercício presente.
 
 ```txt
 ├── Begginer
@@ -27,7 +27,7 @@ O repositório está organizado por capítulos e exercícios. Cada diretório co
 
 ## Como rodar os Scripts
 
-Para facilitar na hora de executar a questão, criei o script [run.sh](run.sh), no qual rapidamente compila e executa o arquivo **Main.java** do exercício.
+Para facilitar na hora de executar a questão, criei o script [run.sh](run.sh), no qual, rapidamente compila e executa o arquivo **Main.java** do exercício.
 
 __Exemplos de execução:__
 
