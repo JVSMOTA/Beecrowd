@@ -6,11 +6,11 @@
 
 </div>
 
-## Sobre
+## 📝 Sobre
 
 Este repositório armazena meus códigos dos desafios diários enfrentados no [Beecrowd](https://judge.beecrowd.com/). Deixei os exercícios dentro de seus respectivos diretórios, no qual está o código da questão resolvida.
 
-## Organização do Repositório
+## 🏗️ Organização do Repositório
 
 O repositório está organizado por nível e seus exercícios. Cada diretório corresponde a um nível, no qual, dentro dele estarão os exercício já concluídos. Dentro de cada diretório de exercício, você encontrará o código do exercício presente.
 
@@ -25,7 +25,7 @@ O repositório está organizado por nível e seus exercícios. Cada diretório c
 │── ...
 ```
 
-## Como rodar os Scripts
+## 🚀 Como rodar os Scripts
 
 Para facilitar na hora de executar a questão, criei o script [run.sh](run.sh), no qual, rapidamente compila e executa o arquivo **Main.java** do exercício.
 
