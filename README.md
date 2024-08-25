@@ -43,6 +43,21 @@ $ bash run.sh Begginer/1000/Main.java
 Hello World!
 ```
 
+Outra maneira de facilitar mais ainda, é você criar um alias para o `run` no seu `~/.bashrc`. No meu caso, coloquei o seguinte nele:
+
+```bash
+# alias for run.sh Java
+alias run='bash ~/Github/Beecrowd/run.sh'
+```
+
+**Note que o caminho de execução está `~/Github/Beecrowd/run.sh`, e no seu caso, caso queria replicar, você deve colocar o caminho do seu script `run.sh` da sua árvore de arquivos.**
+
+E em seguida, executei `source ~/.bashrc` para carregar o bash com as mudanças adicionadas. Me permitindo rodar o código da seguinte maneira (dentro do meu diretório correspondente):
+
+```bash
+$ run Begginer/1000/
+Hello World!
+```
 
 <div align="center">
 
