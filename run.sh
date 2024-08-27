@@ -11,28 +11,26 @@ ARG=$1
 
 # Verifica se é um diretório ou um arquivo
 if [ -d "$ARG" ]; then
-  DIR=$ARG
-  FILE="$DIR/Main.java"
+  FILE="$ARG/Main.java"
 elif [ -f "$ARG" ]; then
   FILE=$ARG
-  DIR=$(dirname "$ARG")
 else
   echo "Erro: Argumento inválido. Passe um diretório ou o caminho para Main.java."
   exit 1
 fi
 
-# Compila o arquivo Main.java
-javac "$FILE"
+# Verifica se o arquivo Main.java existe
+if [ ! -f "$FILE" ]; then
+  echo "Erro: O arquivo Main.java não foi encontrado em $ARG."
+  exit 1
+fi
 
-# Verifica se a compilação foi bem-sucedida
-if [ $? -eq 0 ]; then
-  # Executa a classe Main
-  java -cp "$DIR" Main
-  
-  # Remove o arquivo .class após a execução
-  rm "$DIR/Main.class"
-else
-  echo "Erro na compilação do arquivo."
+# Executa o arquivo Main.java diretamente
+java "$FILE"
+
+# Verifica se a execução foi bem-sucedida
+if [ $? -ne 0 ]; then
+  echo "Erro na execução do arquivo."
   exit 1
 fi
 
