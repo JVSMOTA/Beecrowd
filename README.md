@@ -1,8 +1,8 @@
 # Beecrowd
 
 <div align="right">
-  
-[![HitCount](https://hits.dwyl.com/JVSMOTA/Beecrowd.svg?style=flat-square)](http://hits.dwyl.com/JVSMOTA/Beecrowd)
+
+[![Hits](https://hits.sh/github.com/JVSMOTA/Beecrowd.svg)](https://hits.sh/github.com/JVSMOTA/Beecrowd/)
 
 </div>
 
