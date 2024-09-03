@@ -15,6 +15,9 @@ Este repositório armazena meus códigos dos desafios diários enfrentados no [B
 O repositório está organizado por nível e seus exercícios. Cada diretório corresponde a um nível, no qual, dentro dele estarão os exercício já concluídos. Dentro de cada diretório de exercício, você encontrará o código do exercício presente.
 
 ```txt
+├── bin
+│   ├── new
+│   ├── run
 ├── Begginer
 │   ├── 1000
 │   │   ├── Main.java
@@ -25,38 +28,51 @@ O repositório está organizado por nível e seus exercícios. Cada diretório c
 │── ...
 ```
 
-## 🚀 Como rodar os Scripts
+## 🚀 Como funciona
 
-Para facilitar na hora de executar a questão, criei o script [run.sh](run.sh), no qual, rapidamente compila e executa o arquivo **Main.java** do exercício.
-
-__Exemplos de execução:__
+Para criar uma questão, use o script [new](bin/new), usando:
 
 ```bash
-$ bash run.sh Begginer/1000/
+new Begginer/1000/
+```
+
+Para executar a questão, use o script [run](bin/run), usando:
+
+```bash
+run Begginer/1000/
 Hello World!
 ```
 
 ou 
 
 ```bash
-$ bash run.sh Begginer/1000/Main.java
+run Begginer/1000/Main.java
 Hello World!
 ```
 
-Outra maneira de facilitar mais ainda, é você criar um alias para o `run` no seu `~/.bashrc`. No meu caso, coloquei o seguinte nele:
+## 🔧 Como tornar os Scripts executáveis
+
+Torne os scripts executáveis.
 
 ```bash
-# alias for run.sh Java
-alias run='bash ~/Github/Beecrowd/run.sh'
+chmod +x bin/new bin/run
 ```
 
-**Note que o caminho de execução está `~/Github/Beecrowd/run.sh`, e no seu caso, caso queria replicar, você deve colocar o caminho do seu script `run.sh` da sua árvore de arquivos.**
-
-E em seguida, executei `source ~/.bashrc` para carregar o bash com as mudanças adicionadas. Me permitindo rodar o código da seguinte maneira (dentro do meu diretório correspondente):
+Configure seu ambiente de terminal para incluir automaticamente o diretório `Beecrowd/bin` no PATH toda vez que um novo terminal Bash for aberto.
 
 ```bash
-$ run Begginer/1000/
-Hello World!
+echo 'export PATH=$PATH:~/Github/Beecrowd/bin' >> ~/.bashrc
+```
+
+> [!IMPORTANT] 
+> Note que o caminho de execução está `~/Github/Beecrowd/bin`, e no seu caso, caso queria replicar, você deve colocar o caminho do seu `/bin` da sua árvore de arquivos.
+> 
+
+
+Para carregar mudanças no bash:
+
+```bash
+source ~/.bashrc
 ```
 
 <div align="center">
