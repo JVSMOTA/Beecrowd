@@ -2,7 +2,7 @@
 
 # Verifica se o argumento foi passado
 if [ -z "$1" ]; then
-  echo "Uso: bash run.sh <diretório ou caminho para Main.java>"
+  echo "Uso: run <diretório ou caminho para Main.java>"
   exit 1
 fi
 

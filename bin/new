@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "Usage: new <directory>"
+    exit 1
+fi
+
+DIRECTORY=$1
+mkdir -p "$DIRECTORY"
+
+# Criar o arquivo Main.java com o conteúdo padrão
+cat <<EOL > $DIRECTORY/Main.java
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+    }
+
+}
+EOL
