@@ -42,6 +42,7 @@ Para executar a questão, use o script [run](bin/run), usando:
 ```bash
 run Begginer/1000/
 Hello World!
+
 ```
 
 ou 
