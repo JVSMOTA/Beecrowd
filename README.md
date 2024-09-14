@@ -26,6 +26,7 @@ O repositório está organizado por nível e seus exercícios. Cada diretório c
 ├── Strings
 │   ├── ...
 │── ...
+
 ```
 
 ## 🚀 Como funciona
