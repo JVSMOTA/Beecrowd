@@ -8,8 +8,18 @@ fi
 DIRECTORY=$1
 mkdir -p "$DIRECTORY"
 
-# Criar o arquivo Main.java com o conteúdo padrão
-cat <<EOL > $DIRECTORY/Main.java
+# Verifica se o nome do diretório contém "SQL"
+if [[ "$DIRECTORY" == *"SQL"* ]]; then
+    # Criar o arquivo Main.sql com conteúdo padrão
+    cat <<EOL > $DIRECTORY/Main.sql
+-- Script SQL
+-- Escreva suas consultas aqui
+
+EOL
+    echo "Diretório e arquivo Main.sql criado."
+else
+    # Criar o arquivo Main.java com conteúdo padrão
+    cat <<EOL > $DIRECTORY/Main.java
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -17,10 +27,11 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
-		
+
     }
 
 }
 EOL
+    echo "Diretório e arquivo Main.java criado."
+fi
 
-echo "Diretório e arquivo Main.java criado."
