@@ -8,7 +8,7 @@
 
 ## 📝 Sobre
 
-Este repositório armazena meus códigos dos desafios diários enfrentados no [Beecrowd](https://judge.beecrowd.com/). Deixei os exercícios dentro de seus respectivos diretórios, no qual está o código da questão resolvida.
+Este repositório armazena meus códigos de resposta de exercícios fornecidos do [Beecrowd](https://judge.beecrowd.com/). Deixei as respostas dentro de seus respectivos diretórios nomeados pelo código da questão, no qual está seu código-fonte de estado final.
 
 ## 🏗️ Organização do Repositório
 
