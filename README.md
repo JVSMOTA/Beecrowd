@@ -68,7 +68,6 @@ echo 'export PATH=$PATH:~/Github/Beecrowd/bin' >> ~/.bashrc
 > Note que o caminho de execução está `~/Github/Beecrowd/bin`, e no seu caso, caso queria replicar, você deve colocar o caminho do seu `/bin` da sua árvore de arquivos.
 > 
 
-
 Para carregar mudanças no bash:
 
 ```bash
