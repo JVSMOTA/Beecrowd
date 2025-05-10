@@ -1,5 +1,4 @@
 # Beecrowd
-
 <div align="right">
 
 [![Hits](https://hits.sh/github.com/JVSMOTA/Beecrowd.svg)](https://hits.sh/github.com/JVSMOTA/Beecrowd/)
