@@ -64,6 +64,12 @@ Configure seu ambiente de terminal para incluir automaticamente o diretório `Be
 echo 'export PATH=$PATH:~/Github/Beecrowd/bin' >> ~/.bashrc
 ```
 
+No macOS com Zsh, use:
+
+````bash
+echo 'export PATH="$PATH:$HOME/Github/Beecrowd/bin"' >> ~/.zshrc
+```
+
 > [!IMPORTANT] 
 > Note que o caminho de execução está `~/Github/Beecrowd/bin`, e no seu caso, caso queria replicar, você deve colocar o caminho do seu `/bin` da sua árvore de arquivos.
 > 
@@ -72,6 +78,12 @@ Para carregar mudanças no bash:
 
 ```bash
 source ~/.bashrc
+```
+
+No macOS:
+
+```bash
+source ~/.zshrc
 ```
 
 <div align="center">
