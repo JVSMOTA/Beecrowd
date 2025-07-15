@@ -66,7 +66,7 @@ echo 'export PATH=$PATH:~/Github/Beecrowd/bin' >> ~/.bashrc
 
 No macOS com Zsh, use:
 
-````bash
+```bash
 echo 'export PATH="$PATH:$HOME/Github/Beecrowd/bin"' >> ~/.zshrc
 ```
 
